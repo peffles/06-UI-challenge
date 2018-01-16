@@ -32,6 +32,8 @@ main {
 #d {
     background-color: violet;
     position: relative;
+    width: 480px;
+    height: 125px;
 }
 #e, #g {
     background-color: blue;
@@ -66,7 +68,7 @@ main {
 @media only screen and (min-width: 800px) {
 
     header {
-        width: 962px;
+        width: 960px;
         margin: 0 auto;
     }
     
@@ -127,6 +129,10 @@ main {
         position: absolute;
         bottom: 0px;
         right: 0px;
+    }
+    .centered {
+        text-align: center;
+        vertical-align: 5em;
     }
 
 }
