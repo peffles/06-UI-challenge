@@ -65,7 +65,7 @@ main {
 }
 
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 768px) {
 
     header {
         width: 960px;
@@ -129,10 +129,6 @@ main {
         position: absolute;
         bottom: 0px;
         right: 0px;
-    }
-    .centered {
-        text-align: center;
-        vertical-align: 5em;
     }
 
 }
